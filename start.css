@@ -1,0 +1,37 @@
+body{
+    background-color: black;
+    text-align: center;
+    margin-top: 70px;
+}
+body img{
+    height: 150px;
+}
+h1{
+    color: white;
+    font-size: 70px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+.rock{
+    color: red;
+}
+.paper{
+    color: #b1bcb1;
+}
+.scissors{
+    color:blue;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 50px;
+}
+p{
+    margin: 0;
+}
+p:hover{
+    transform: scale(1.5); 
+    color: gold;
+    transition: transform 0.3s ease;
+}

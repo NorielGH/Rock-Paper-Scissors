@@ -1,0 +1,79 @@
+body{
+    background-color: black;
+}
+h1, .result{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+h2{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+section {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.player-move, .computer-move {
+    width: 150px;
+    text-align: center;
+}
+.move-icon{
+    height: 65px;
+}
+.move-player-btn{
+    background-color: transparent;
+    border: 3px solid white;
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    margin-bottom: 10px;
+}
+.move-computer-btn{
+    background-color: transparent;
+    border: 3px solid white;
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    margin-bottom: 10px;
+}
+.move-player-btn:hover{
+    background-color: white;
+}
+p {
+    color: white;
+}
+.reset-score-btn{
+    background-color: white;
+    padding: 15px 100px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+article{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 650px;
+}
+.move-img{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.move-img img{
+    height: 100px;
+}
+footer{
+    text-align: center;
+}
+footer p{
+    font-size: 30px;
+    margin-bottom: 1px;
+    margin-top: 0;
+    font-weight: bold;
+}
